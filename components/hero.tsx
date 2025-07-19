@@ -17,21 +17,18 @@ const HeroSection = () => {
 			<div className='relative z-10'>
 				<div className='mx-auto flex max-w-5xl flex-col items-center'>
 					<div className='flex flex-col items-center gap-6 text-center'>
-						<div className='rounded-xl bg-background/30 p-4 shadow-sm backdrop-blur-sm'>
-							<img src='https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg' alt='logo' className='h-16' />
-						</div>
 						<div>
 							<h1 className='mb-6 text-2xl font-bold tracking-tight text-pretty lg:text-5xl'>
-								Build your next project with <span className='text-primary'>Blocks</span>
+								Hi, I&apos;m <span className='text-primary'>Anshu Raj</span>
 							</h1>
 							<p className='mx-auto max-w-3xl text-muted-foreground lg:text-xl'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig doloremque mollitia fugiat omnis! Porro facilis quo animi consequatur. Explicabo.
+								A passionate Web Developer crafting modern and responsive web applications with cutting-edge technologies.
 							</p>
 						</div>
 						<div className='mt-6 flex justify-center gap-3'>
-							<Button className='shadow-sm transition-shadow hover:shadow'>Get Started</Button>
+							<Button className='shadow-sm transition-shadow hover:shadow'>View Projects</Button>
 							<Button variant='outline' className='group'>
-								Learn more <ExternalLink className='ml-2 h-4 transition-transform group-hover:translate-x-0.5' />
+								Download CV <ExternalLink className='ml-2 h-4 transition-transform group-hover:translate-x-0.5' />
 							</Button>
 						</div>
 						<div className='mt-20 flex flex-col items-center gap-5'>
