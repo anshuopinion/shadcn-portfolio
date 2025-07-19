@@ -1,17 +1,23 @@
 import type {Metadata} from "next";
-import {Geist, Geist_Mono} from "next/font/google";
+import {Merriweather, JetBrains_Mono, Source_Serif_4} from "next/font/google";
 import "./globals.css";
 import {Footer} from "@/components/footer";
 import {Navbar} from "@/components/navbar";
 
-const geistSans = Geist({
-	variable: "--font-geist-sans",
-	subsets: ["latin"],
+const merriweather = Merriweather({
+    subsets: ["latin"],
+    weight: ["300", "400", "700", "900"],
+    variable: "--font-sans",
 });
 
-const geistMono = Geist_Mono({
-	variable: "--font-geist-mono",
-	subsets: ["latin"],
+const sourceSerif = Source_Serif_4({
+    subsets: ["latin"],
+    variable: "--font-serif",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+    subsets: ["latin"],
+    variable: "--font-mono",
 });
 
 export const metadata: Metadata = {
@@ -26,7 +32,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+			<body className={`${merriweather.variable} ${sourceSerif.variable} ${jetbrainsMono.variable} antialiased`}>
 				<Navbar />
 				{children}
 				<Footer />

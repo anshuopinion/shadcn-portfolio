@@ -7,7 +7,7 @@ import {Separator} from "@/components/ui/separator";
 const Footer = () => {
 	return (
 		<footer className='border-t'>
-			<div className='container flex flex-col gap-4 py-8 md:flex-row md:gap-8'>
+			<div className='container mx-auto flex flex-col gap-4 py-8 md:flex-row md:gap-8'>
 				<div className='flex flex-col gap-4 md:gap-6 md:flex-1'>
 					<Link href='/' className='flex items-center space-x-2'>
 						<span className='font-bold'>Anshu Raj</span>
