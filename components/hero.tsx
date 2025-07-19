@@ -6,7 +6,7 @@ import {Button, buttonVariants} from "@/components/ui/button";
 
 const HeroSection = () => {
 	return (
-		<section className='relative mx-auto overflow-hidden  py-32'>
+		<section id='hero' className='relative mx-auto overflow-hidden  py-32'>
 			<div className='absolute inset-x-0 top-0 flex h-full w-full items-center justify-center opacity-100'>
 				<img
 					alt='background'
